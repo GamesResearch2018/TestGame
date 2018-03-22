@@ -397,14 +397,14 @@ function endScreen(){
 	game.stage.backgroundColor = '#3598db';
 	//background = game.add.tileSprite(0, 0, 640, 480, 'background');
 	var style = { font: "35px Arial", fill: "#ffffff", align: "center" };
-	startText = game.add.text(90, 70, "Thank you for playing my game.", style);
+	startText = game.add.text(130, 70, "Thank you for playing my game.", style);
 	startText.setShadow(3, 3, 'rgba(0,0,0,0.5)', 2);
 	sendData();
 	//download()
-	console.log(anwsers);
-	console.log(firstGroup);
-	console.log(secondGroup);
-	console.log(thirdGroup);
+	//console.log(anwsers);
+	//console.log(firstGroup);
+	//console.log(secondGroup);
+	//console.log(thirdGroup);
 	
 	
 	
@@ -576,7 +576,7 @@ function startThirdHard(){
 	thirdPick = "Harder"
 	//++ difficulty
 	difficulty++ 
-	console.log(difficulty);
+	//console.log(difficulty);
 	switch(difficulty) {
 	case 3:
         level3();
@@ -761,7 +761,7 @@ function buildLevel(){
 				game.physics.enable(slime, Phaser.Physics.ARCADE);
 				slime.body.velocity.x = -50; 
 				slimes.add(slime);
-				console.log(slime.body.velocity.x);
+				//console.log(slime.body.velocity.x);
 			}
 			//places door
 			else if (levelLayout[i][j] == 'd') {
