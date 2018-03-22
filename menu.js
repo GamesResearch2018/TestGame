@@ -376,7 +376,7 @@ function question3() {
 	//background = game.add.tileSprite(0, 0, 640, 480, 'background');
 	var style = { font: "35px Arial", fill: "#ffffff", align: "center" };
 
-    startText = game.add.text(0, 70, "Would you like to play on a \nharder or easier level?", style);
+    startText = game.add.text(115, 70, "Would you like to play on a \nharder or easier level?", style);
 	startText.setShadow(3, 3, 'rgba(0,0,0,0.5)', 2);
 	buttonEasy3 = game.add.button(125, 220, 'btn_easier', startThirdEasy, this, 1, 2, 0);
 	buttonHard3 = game.add.button(355, 220, 'btn_harder', startThirdHard, this, 1, 2, 0);
@@ -397,7 +397,7 @@ function endScreen(){
 	game.stage.backgroundColor = '#3598db';
 	//background = game.add.tileSprite(0, 0, 640, 480, 'background');
 	var style = { font: "35px Arial", fill: "#ffffff", align: "center" };
-	startText = game.add.text(115, 70, "Thank you for playing my game.", style);
+	startText = game.add.text(90, 70, "Thank you for playing my game.", style);
 	startText.setShadow(3, 3, 'rgba(0,0,0,0.5)', 2);
 	sendData();
 	//download()
