@@ -180,10 +180,10 @@ var tutOn = false
 
 //Create stage for first question
 function create() {
-	//tutOn = true
-	//tutorial();
+	tutOn = true
+	tutorial();
 	//question1();
-	level7()
+	//level7()
 	
    
 };
