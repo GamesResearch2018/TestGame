@@ -98,7 +98,7 @@ function sendData(){
 	
 	);
 	
-	console.log(submitURL);
+	//console.log(submitURL);
 	var ifrm = document.createElement("iframe");
     ifrm.setAttribute("src", submitURL);
     ifrm.setAttribute("style", "visibility:hidden")
