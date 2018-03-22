@@ -397,7 +397,7 @@ function endScreen(){
 	game.stage.backgroundColor = '#3598db';
 	//background = game.add.tileSprite(0, 0, 640, 480, 'background');
 	var style = { font: "35px Arial", fill: "#ffffff", align: "center" };
-	startText = game.add.text(130, 70, "Thank you for playing my game.", style);
+	startText = game.add.text(130, 70, "Thank you for playing.", style);
 	startText.setShadow(3, 3, 'rgba(0,0,0,0.5)', 2);
 	sendData();
 	//download()
