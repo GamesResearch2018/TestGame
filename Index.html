@@ -1,0 +1,92 @@
+<!DOCTYPE html>  
+<html>
+    <head>  
+        <meta charset="utf-8" />
+        <title> Game </title>		
+        <script type="text/javascript" src="phaser.min.js"></script>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="menu.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				var $select = $(".1-100");
+				for (i=1;i<=100;i++){
+					$select.append($('<option></option>').val(i).html(i))
+				}
+			});
+		</script>
+				
+    </head>
+	<style>
+		p.sansserif {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 20px;
+		}
+		#myForm {
+			border-radius: 25px;
+			border: 2px solid black;
+			padding: 25px;
+			background: rgba(185, 186, 175, 0.9);
+			width:586px;
+			height:246px;
+		}
+		.box{
+			width:640px;
+			height:480px;
+		}
+		.blue{
+			background-image: url("assets/backdrop.png");
+		}
+		.outer {
+			display: table;
+			position: absolute;
+			height: 100%;
+			width: 100%;
+		}
+
+		.middle {
+			display: table-cell;
+			vertical-align: middle;
+		}
+
+		.inner {
+			margin-left: auto;
+			margin-right: auto; 
+			width: 640px; /*whatever width you want*/
+		}
+		html, body {
+		  overflow: hidden;
+		}
+		
+	</style>
+	<body bgcolor="#000000" >  
+		<div class="outer">
+			<div class="middle">
+				<div class="inner">
+					<div id="gamePlay">
+						<div id="myForm2" class="box blue">
+							<div id="myForm">	
+									<form>
+									<p class="sansserif">What is your gender?:
+									<select id="myGender">
+										<option>Male</option>
+										<option>Female</option>
+									</select></p>
+									<p class="sansserif">What is your age?:
+									<select id="myAge" class="1-100"></select></p>
+									<p class="sansserif">How many hours a week do you spend playing video games on average?:
+									<select id="myTime" class="1-100"></select></p>
+									<p class="sansserif">Do you consider yourself a hardcore or casual gamer?
+									<select id="myType">
+										<option >Hardcore</option>
+										<option>Casual</option>
+									</select></p>
+									<input type="button"  class="sansserif" onclick="getInfo()" value="Submit">	
+									</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </body>  
+</html> 
