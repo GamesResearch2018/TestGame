@@ -22,7 +22,7 @@ function getInfo() {
 	var time = document.getElementById("myTime");
 	var type = document.getElementById("myType");
 	finalGender = gender.options[gender.selectedIndex].text;
-    finalAge = age.options[age.selectedIndex].text;
+    	finalAge = age.options[age.selectedIndex].text;
 	finalTime = time.options[time.selectedIndex].text;
 	finalType = type.options[gender.selectedIndex].text;
 		
@@ -376,7 +376,7 @@ function question3() {
 	//background = game.add.tileSprite(0, 0, 640, 480, 'background');
 	var style = { font: "35px Arial", fill: "#ffffff", align: "center" };
 
-    startText = game.add.text(115, 70, "Would you like to play on a \nharder or easier level?", style);
+    startText = game.add.text(0, 70, "Would you like to play on a \nharder or easier level?", style);
 	startText.setShadow(3, 3, 'rgba(0,0,0,0.5)', 2);
 	buttonEasy3 = game.add.button(125, 220, 'btn_easier', startThirdEasy, this, 1, 2, 0);
 	buttonHard3 = game.add.button(355, 220, 'btn_harder', startThirdHard, this, 1, 2, 0);
@@ -398,6 +398,7 @@ function endScreen(){
 	background = game.add.tileSprite(0, 0, 640, 480, 'background');
 	var style = { font: "35px Arial", fill: "#ffffff", align: "center" };
 	startText = game.add.text(115, 70, "Thank you for playing my game.", style);
+	startText.setShadow(3, 3, 'rgba(0,0,0,0.5)', 2);
 	sendData();
 	//download()
 	console.log(anwsers);
