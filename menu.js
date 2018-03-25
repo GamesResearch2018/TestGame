@@ -530,7 +530,6 @@ function download() {
 	coinNumber = 5
 	createStage();
 };
-};
 
 
 
