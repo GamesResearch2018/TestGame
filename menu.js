@@ -689,6 +689,13 @@ function createStage() {
 	
 };
 
+//respawn
+function restMap(){
+
+
+}
+
+
 //times each level
 function timeX(){
 	
@@ -964,7 +971,7 @@ function respawn(){
 	game.world.removeAll()
 	deaths = (deaths + 1)
 	coinsLeft = coinNumber
-	createStage()
+	//createStage()
 	
 }
 
