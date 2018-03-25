@@ -180,10 +180,10 @@ var tutOn = false
 
 //Create stage for first question
 function create() {
-	tutOn = true
-	tutorial();
+	//tutOn = true
+	//tutorial();
 	//question1();
-	//level7()
+	level7()
 	
    
 };
@@ -1164,37 +1164,6 @@ function level7() {
 	playingLevel = true
 	difficulty = 7
 	currentLevel = "level-7"
-	removeTextStart();
-	levelLayout = [
-		'00000000000000000000000000000000000',
-		'0               00000             0',
-		'0d       o       000             o0',
-		'0000xxx000               0xxx0xxx00',
-		'000000000     0      0   0000000000',
-		'0000000       00o  s 00           0',
-		'0000         0000000000000        0',
-		'00      0    00000000000000       0',
-		'00  o s00     0000       00xxx0   0',
-		'000000000             o   000000  0',
-		'0000000               0     00    0',
-		'0           o    0    0     0    00',
-		'0           0    0    00   00  0000',
-		'0     s0    0    0    000  s   o  0',
-		'00000000xxxx0xxxx0xxxx0000000000000',
-	];
-	spawnX = 64 
-	spawnY = 384
-	deaths = 0
-	time = 0
-	coinNumber = 7
-	createStage();
-};
-
-function level8() {
-	game.world.setBounds(0, 0, 1120, 480);
-	playingLevel = true
-	difficulty = 7
-	currentLevel = "level-7.5"
 	//removeTextStart();
 	levelLayout = [
 		'00000000000000000000000000000000000',
@@ -1214,7 +1183,7 @@ function level8() {
 		'00000000xxxx0xxxx0xxxx0000000000000',
 	];
 	spawnX = 64 
-	spawnY = 416
+	spawnY = 384
 	deaths = 0
 	time = 0
 	coinNumber = 7
