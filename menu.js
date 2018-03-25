@@ -182,8 +182,6 @@ var tutOn = false
 function create() {
 	tutOn = true
 	tutorial();
-	question1();
-	//level5()
 	
    
 };
