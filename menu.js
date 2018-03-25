@@ -183,7 +183,7 @@ function create() {
 	//tutOn = true
 	//tutorial();
 	//question1();
-	level7()
+	level5()
 	
    
 };
@@ -1099,7 +1099,7 @@ function level5() {
 	playingLevel = true
 	difficulty = 5
 	currentLevel = "level-5"
-	removeTextStart();
+	//removeTextStart();
 	levelLayout = [
 		'000000000000000000000000000000',
 		'0             00             0',
@@ -1164,7 +1164,7 @@ function level7() {
 	playingLevel = true
 	difficulty = 7
 	currentLevel = "level-7"
-	//removeTextStart();
+	removeTextStart();
 	levelLayout = [
 		'00000000000000000000000000000000000',
 		'0               00000             0',
