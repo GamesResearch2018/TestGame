@@ -180,10 +180,10 @@ var tutOn = false
 
 //Create stage for first question
 function create() {
-	//tutOn = true
-	//tutorial();
-	//question1();
-	level5()
+	tutOn = true
+	tutorial();
+	question1();
+	//level5()
 	
    
 };
@@ -511,7 +511,7 @@ function download() {
 		'000000000000000000000000000000',
 		'0             00             0',
 		'0             00             0',
-		'0   0 0xxx0   00d  0xxx00    0',
+		'0   00xxx0    00d   0xxx00   0',
 		'0  000000000000000000000000  0',
 		'0      o              o      0',
 		'000                        000',
@@ -1099,12 +1099,12 @@ function level5() {
 	playingLevel = true
 	difficulty = 5
 	currentLevel = "level-5"
-	//removeTextStart();
+	removeTextStart();
 	levelLayout = [
 		'000000000000000000000000000000',
 		'0             00             0',
 		'0             00             0',
-		'0   0 0xxx0   00d  0xxx00    0',
+		'0   00xxx0    00d   0xxx00   0',
 		'0  000000000000000000000000  0',
 		'0      o              o      0',
 		'000                        000',
