@@ -511,7 +511,7 @@ function download() {
 		'000000000000000000000000000000',
 		'0             00             0',
 		'0             00             0',
-		'0   00xxx0    00d  0xxx00    0',
+		'0   00 xxx0   00d  0xxx00    0',
 		'0  000000000000000000000000  0',
 		'0       o            o       0',
 		'000           o            000',
@@ -524,8 +524,8 @@ function download() {
 		'00  s  0  o        o  0  s  00',
 		'000000000000xxxxxx000000000000',
 	];
-	spawnX = 64
-	spawnY = 352
+	spawnX = 416
+	spawnY = 96
 	deaths = 0
 	time = 0
 	timeTotal = 0
@@ -1104,7 +1104,7 @@ function level5() {
 		'000000000000000000000000000000',
 		'0             00             0',
 		'0             00             0',
-		'0   00xxx0    00d  0xxx00    0',
+		'0   0 0xxx0   00d  0xxx00    0',
 		'0  000000000000000000000000  0',
 		'0       o            o       0',
 		'000           o            000',
@@ -1117,8 +1117,8 @@ function level5() {
 		'00  s  0  o        o  0  s  00',
 		'000000000000xxxxxx000000000000',
 	];
-	spawnX = 440
-	spawnY = 120
+	spawnX = 416
+	spawnY = 96
 	deaths = 0
 	time = 0
 	coinNumber = 5
