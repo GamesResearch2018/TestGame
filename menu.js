@@ -1117,8 +1117,8 @@ function level5() {
 		'00  s  0  o        o  0  s  00',
 		'000000000000xxxxxx000000000000',
 	];
-	spawnX = 64
-	spawnY = 300
+	spawnX = 440
+	spawnY = 120
 	deaths = 0
 	time = 0
 	coinNumber = 5
