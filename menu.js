@@ -393,6 +393,7 @@ function removeTextStart(){
 
 function endScreen(){
 	game.stage.backgroundColor = '#3598db';
+	game.world.setBounds(0, 0, 640, 480);
 	//background = game.add.tileSprite(0, 0, 640, 480, 'background');
 	var style = { font: "35px Arial", fill: "#ffffff", align: "center" };
 	startText = game.add.text(130, 70, "Thank you for playing.", style);
